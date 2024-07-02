@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#                               __         __
-#                              /__)_   '_/(  _ _
-#                             / ( (//)/(/__)( (//)
-#                                  /
 #
-# Author     : Shankar Narayana Damodaran
+# __      __    _                     
+# \ \    / /   | |                    
+#  \ \  / /   _| |___  ___ __ _ _ __  
+#   \ \/ / | | | / __|/ __/ _` | '_ \ 
+#    \  /| |_| | \__ \ (_| (_| | | | |
+#     \/  \__,_|_|___/\___\__,_|_| |_|
+#                                     
+#
+# Author     : Anuj Tanwar
 # Tool       : VulScan v1
 # Usage      : python3 vulscan.py example.com
 # Description: This scanner automates the process of security scanning by using a
@@ -163,10 +167,12 @@ def clear():
 def logo():
     print(bcolors.WARNING)
     logo_ascii = """
-                                  __         __
-                                 /__)_  """+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""_/(  _ _
-                                / ( (//)/(/__)( (//)
-                                     /
+ __      __    _                     
+ \ \    / /   | |                    
+  \ \  / /   _| |___  ___ __ _ _ __  
+   \ \/ / | | | / __|/ __/ _` | '_ \ 
+    \  /| |_| | \__ \ (_| (_| | | | |
+     \/  \__,_|_|___/\___\__,_|_| |_|
                      """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
 
                      Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
