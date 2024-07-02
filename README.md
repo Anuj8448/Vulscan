@@ -54,5 +54,8 @@ Alternatively, your can install the `vulscan` python module with `pip`. This wil
 git clone https://github.com/Anuj8448/Vulscan.git /opt/
 cd /opt/vulscan
 python3 -m pip install .
+chmod +x /opt/vulscan/vulscan.py
+sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vulscan
+
 ```
 
