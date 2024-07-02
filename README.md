@@ -45,11 +45,6 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 - Kali OS (_**Preferred**, as it is shipped with almost all the tools_)
 - Tested with Parrot & Ubuntu Operating Systems.
 
-## Usage 
- `python3 vulscan.py example.com`
-
-https://user-images.githubusercontent.com/6489729/138737524-9c4dc567-ec78-40b4-9a7b-8ff52d5dc98b.mp4
-
 
 ## Installation
 
@@ -61,11 +56,3 @@ cd /opt/vulscan
 python3 -m pip install .
 ```
 
-### Docker Support
-Under development.
-
-## Contribution
-- Create your feature branch: `git checkout -b my-new-feature`
-- Commit your changes: `git commit -am 'Add some feature'`
-- Push to the branch: `git push origin my-new-feature`
-- Submit a pull request.
