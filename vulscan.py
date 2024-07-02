@@ -6,7 +6,7 @@
 #                                  /
 #
 # Author     : Shankar Narayana Damodaran
-# Tool       : VulScan v1.2
+# Tool       : VulScan v1
 # Usage      : python3 vulscan.py example.com
 # Description: This scanner automates the process of security scanning by using a
 #              multitude of available linux security tools and some custom scripts.
