@@ -38,12 +38,16 @@ setup(
     url                 =   "https://github.com/Anuj8448/Vulscan",
     author              =   "Anuj Tanwar",
     py_modules          =   ['vulscan',],
-    install_requires    =   required,
-      entry_points={
+    install_requires=[
+        "requests",
+        "beautifulsoup4",
+    ],
+    entry_points={
         'console_scripts': [
             'vulscan=vulscan:main',
         ],
-    cmdclass={
+    },
+   cmdclass={
         'install': CustomInstallCommand,
     },
     python_requires=">=3.6",
