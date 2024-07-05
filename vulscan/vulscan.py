@@ -172,7 +172,7 @@ def logo():
    \ \/ / | | | / __|/ __/ _` | '_ \ 
     \  /| |_| | \__ \ (_| (_| | | | |
      \/  \__,_|_|___/\___\__,_|_| |_|
-                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
+                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)"""
 
     print(logo_ascii)
     print(bcolors.ENDC)
