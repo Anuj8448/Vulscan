@@ -1,54 +1,23 @@
 #! /usr/bin/env python3
 from setuptools import setup
-from setuptools.command.install import install
-import subprocess
-import os
 
 import pathlib
 
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
-def read_readme():
-    try:
-        with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
-            return f.read()
-    except FileNotFoundError:
-        return ""
-        
-class CustomInstallCommand(install):
-    def run(self):
-        # Run the standard setuptools install
-        install.run(self)
-        # Run the setup script
-        subprocess.check_call(['./setup.sh'])
-
-with open("requirements.txt") as f:
-    required = f.read().splitlines()
-
 # The text of the README file
 README = (HERE / "README.md").read_text()
 
 setup(
-    name                =   "vulscan",
+    name                =   "Vulscan",
     version             =   '1',
     description         =   "The Multi-Tool Web Vulnerability Scanner.",
     long_description    =   README,
     long_description_content_type = "text/markdown",
-    url                 =   "https://github.com/Anuj8448/Vulscan",
-    author              =   "Anuj Tanwar",
+    url                 =   "https://github.com/Anuj8448/vulscan",
+    author              =   "Anuj",
     py_modules          =   ['vulscan',],
-    install_requires=[
-        "requests",
-        "beautifulsoup4",
-    ],
-    entry_points={
-        'console_scripts': [
-            'vulscan=vulscan:main',
-        ],
-    },
-   cmdclass={
-        'install': CustomInstallCommand,
-    },
+    install_requires    =   [],
     python_requires=">=3.6",
 )
