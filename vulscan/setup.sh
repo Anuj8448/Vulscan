@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Install dependencies from requirements.txt
-pip install -r requirements.txt
-
 # Install golismero from the external source
 echo "Installing golismero..."
 apt-get install python2.7 python2.7-dev python-pip python-docutils git perl nmap sslscan
