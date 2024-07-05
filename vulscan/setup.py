@@ -2,12 +2,20 @@
 from setuptools import setup
 from setuptools.command.install import install
 import subprocess
+import os
 
 import pathlib
 
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
+def read_readme():
+    try:
+        with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        return ""
+        
 class CustomInstallCommand(install):
     def run(self):
         # Run the standard setuptools install
