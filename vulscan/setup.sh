@@ -19,6 +19,7 @@ cd ..
 # Install other tools that are not available via pip
 # For example, installing nmap, dnsrecon, etc., if not already available
 apt-get install -y nmap dnsrecon wafw00f git python3-pip
+snap install amass
 pip install sslyze
 
 # Install Uniscan
@@ -44,12 +45,5 @@ cd theHarvester
 pip install -r requirements.txt
 python setup.py install
 cd ..
-
-# Install Amass
-echo "Installing Amass..."
-wget https://github.com/OWASP/Amass/releases/download/v3.13.3/amass_linux_amd64.zip
-unzip amass_linux_amd64.zip
-mv amass_linux_amd64/amass /usr/local/bin/
-rm -rf amass_linux_amd64 amass_linux_amd64.zip
 
 echo "All tools installed successfully."
