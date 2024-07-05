@@ -28,6 +28,8 @@ import re
 import random
 from urllib.parse import urlsplit
 
+if __name__ == "__main__":
+    main()
 
 CURSOR_UP_ONE = '\x1b[1A' 
 ERASE_LINE = '\x1b[2K'
