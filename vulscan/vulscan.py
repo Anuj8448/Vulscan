@@ -174,8 +174,6 @@ def logo():
      \/  \__,_|_|___/\___\__,_|_| |_|
                      """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
 
-                     Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
-    """
     print(logo_ascii)
     print(bcolors.ENDC)
 
