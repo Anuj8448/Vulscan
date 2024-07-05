@@ -18,6 +18,9 @@ setup(
     url                 =   "https://github.com/Anuj8448/vulscan",
     author              =   "Anuj",
     py_modules          =   ['vulscan',],
-    install_requires    =   [],
+    install_requires=[
+        "requests",
+        "beautifulsoup4",
+    ],
     python_requires=">=3.6",
 )
