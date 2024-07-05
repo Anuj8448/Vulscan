@@ -1,13 +1,2 @@
 requests
 beautifulsoup4
-nmap
-dnsrecon
-wafw00f
-uniscan
-sslyze
-fierce
-lbd
-theHarvester
-amass
-nikto
-golismero
