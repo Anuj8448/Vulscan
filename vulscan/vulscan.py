@@ -28,16 +28,6 @@ import re
 import random
 from urllib.parse import urlsplit
 
-def main():
-    # Your main logic here
-    logo()
-    # Example: print arguments
-    import sys
-    print("Arguments passed:", sys.argv[1:])
-    
-if __name__ == "__main__":
-    main()
-
 CURSOR_UP_ONE = '\x1b[1A' 
 ERASE_LINE = '\x1b[2K'
 
