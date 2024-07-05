@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 from setuptools import setup
+from setuptools.command.install import install
 import subprocess
 
 import pathlib
