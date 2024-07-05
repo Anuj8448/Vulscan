@@ -18,6 +18,6 @@ cd ..
 
 # Install other tools that are not available via pip
 # For example, installing nmap, dnsrecon, etc., if not already available
-apt-get install -y nmap dnsrecon wafw00f uniscan sslyze fierce lbd theharvester amass nikto
+apt install  nmap dnsrecon wafw00f uniscan sslyze fierce lbd theharvester amass nikto -y
 
 echo "All tools installed successfully."
