@@ -51,12 +51,9 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 Alternatively, your can install the `vulscan` python module with `pip`. This will create a link for `vulscan` in your PATH. 
 
 ```
-git clone https://github.com/Anuj8448/Vulscan.git /opt/
-cd /opt/vulscan
-chmod +x /opt/vulscan/setup.sh
-python3 -m pip install .
-chmod +x /opt/vulscan/vulscan.py
-sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vulscan
+git clone https://github.com/Anuj8448/Vulscan.git /opt/ && cd /opt/vulscan
+chmod +x /opt/vulscan/setup.sh vulscan.py && ./setup.sh
+python3 -m pip install . && sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vulscan
 
 ```
 
