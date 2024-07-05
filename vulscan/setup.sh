@@ -10,10 +10,3 @@ pip install -r requirements.txt
 pip install -r requirements_unix.txt
 ln -s ${PWD}/golismero.py /usr/bin/golismero
 cd ..
-
-# Install other tools that are not available via pip
-# For example, installing nmap, dnsrecon, etc., if not already available
-apt install nmap dnsrecon wafw00f uniscan lbd theharvester amass -y
-pip install sslyze
-
-echo "All tools installed successfully."
