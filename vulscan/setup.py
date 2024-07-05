@@ -31,11 +31,10 @@ setup(
     author              =   "Anuj Tanwar",
     py_modules          =   ['vulscan',],
     install_requires    =   required,
-     entry_points={
+      entry_points={
         'console_scripts': [
             'vulscan=vulscan:main',
         ],
-    },
     cmdclass={
         'install': CustomInstallCommand,
     },
