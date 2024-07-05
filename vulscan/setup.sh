@@ -10,3 +10,5 @@ pip install -r requirements.txt
 pip install -r requirements_unix.txt
 ln -s ${PWD}/golismero.py /usr/bin/golismero
 cd ..
+
+apt install dmitry wapiti uniscan nikto dnsmap dnswalk -y
