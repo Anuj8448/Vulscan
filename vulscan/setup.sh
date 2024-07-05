@@ -18,9 +18,7 @@ cd ..
 
 # Install other tools that are not available via pip
 # For example, installing nmap, dnsrecon, etc., if not already available
-apt install nmap dnsrecon wafw00f uniscan lbd theharvester -y
-snap install theharvester
-snap install amass
+apt install nmap dnsrecon wafw00f uniscan lbd theharvester amass -y
 pip install sslyze
 
 echo "All tools installed successfully."
