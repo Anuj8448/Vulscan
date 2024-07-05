@@ -18,6 +18,38 @@ cd ..
 
 # Install other tools that are not available via pip
 # For example, installing nmap, dnsrecon, etc., if not already available
-apt install  nmap dnsrecon wafw00f uniscan sslyze fierce lbd theharvester amass nikto -y
+apt-get install -y nmap dnsrecon wafw00f git python3-pip
+pip install sslyze
+
+# Install Uniscan
+echo "Installing uniscan..."
+git clone https://github.com/poerschke/Uniscan.git
+cd Uniscan
+chmod +x uniscan.pl
+cp uniscan.pl /usr/local/bin/uniscan
+cd ..
+
+# Install lbd (Load Balancing Detector)
+echo "Installing lbd..."
+git clone https://github.com/opsxcq/lbd.git
+cd lbd
+chmod +x lbd.py
+cp lbd.py /usr/local/bin/lbd
+cd ..
+
+# Install theHarvester
+echo "Installing theHarvester..."
+git clone https://github.com/laramies/theHarvester.git
+cd theHarvester
+pip install -r requirements.txt
+python setup.py install
+cd ..
+
+# Install Amass
+echo "Installing Amass..."
+wget https://github.com/OWASP/Amass/releases/download/v3.13.3/amass_linux_amd64.zip
+unzip amass_linux_amd64.zip
+mv amass_linux_amd64/amass /usr/local/bin/
+rm -rf amass_linux_amd64 amass_linux_amd64.zip
 
 echo "All tools installed successfully."
