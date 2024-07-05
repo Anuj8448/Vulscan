@@ -9,8 +9,6 @@ cd golismero
 pip install -r requirements.txt
 pip install -r requirements_unix.txt
 ln -s ${PWD}/golismero.py /usr/bin/golismero
-pip install -r requirements.txt
-python setup.py install
 cd ..
 
 # Install other tools that are not available via pip
