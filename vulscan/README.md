@@ -1,13 +1,11 @@
 
 
 #  Vulscan - _The Multi-Tool Web Vulnerability Scanner_
-_**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is available on v1.1 releases section. Download and use it if you still haven't upgraded to Python 3. Kindly note that the v1.1 (Python2.7) will not be enhanced further._
 
 ## Evolution:
 > It is quite a fuss for a pentester to perform _**binge-tool-scanning**_ (_running security scanning tools one after the other_) sans automation. Unless you are a pro at automating stuff, it is a herculean task to perform binge-scan for each and every engagement. The ultimate goal of this program is to solve this problem through automation; viz. **running multiple scanning tools to discover vulnerabilities, effectively judge false-positives, collectively correlate results** and **saves precious time**; all these under one roof.<p>Enter **vulscan**.
 
 ## Features
-- **one-step installation**.
 - **executes a multitude of security scanning tools**, does other **custom coded checks** and **prints the results spontaneously**.
 - some of the tools include `nmap, dnsrecon, wafw00f, uniscan, sslyze, fierce, lbd, theharvester, amass, nikto` etc executes under one entity.
 - saves a lot of time, **indeed a lot time!**.
@@ -19,14 +17,8 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 - **vulnerability definitions** guides you what the vulnerability actually is and the threat it can pose.
 - **remediation** tells you how to plug/fix the found vulnerability.
 - **executive summary** gives you an overall context of the scan performed with critical, high, low and informational issues discovered.
-- **artificial intelligence** to deploy tools automatically depending upon the issues found. for eg; automates the launch of `wpscan` and `plecost` tools when a wordpress installation is found. (_**under development**_)
-- **detailed comprehensive report** in a portable document format (*.pdf) with complete details of the scans and tools used. (_**under development**_)
-- **on the run metasploit auxilliary modules** to discover more vulnerabilities. (_**under development**_)
-
+  
 ---
-### FYI:
-- _program is still under development, **works** and currently supports **80** vulnerability tests._
-- _parallel processing is not yet implemented, may be coded as more tests gets introduced._
 
 ## Vulnerability Checks
 - :heavy_check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
@@ -38,7 +30,6 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 - :heavy_check_mark: Open Directory/File Brute Forcing.
 - :heavy_check_mark: Shallow XSS, SQLi and BSQLi Banners.
 - :heavy_check_mark: Slow-Loris DoS Attack, LFI (_Local File Inclusion_), RFI (_Remote File Inclusion_) & RCE (_Remote Code Execution_).
-- & more coming up...
 
 ## Requirements
 - **Python 3**
@@ -48,14 +39,10 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 
 ## Installation
 
-Alternatively, your can install the `vulscan` python module with `pip`. This will create a link for `vulscan` in your PATH. 
-
 ```
-git clone https://github.com/Anuj8448/Vulscan.git /opt/
-cd /opt/vulscan
-chmod +x /opt/vulscan/setup.sh vulscan.py
-python3 -m pip install .
-sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vulscan
+git clone https://github.com/Anuj8448/Vulscan.git /opt/ && cd /opt/vulscan
+chmod +x /opt/vulscan/setup.sh vulscan.py && ./setup.sh
+python3 -m pip install . && sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vulscan
 
 ```
 
