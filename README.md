@@ -17,9 +17,7 @@
 - **vulnerability definitions** guides you what the vulnerability actually is and the threat it can pose.
 - **remediation** tells you how to plug/fix the found vulnerability.
 - **executive summary** gives you an overall context of the scan performed with critical, high, low and informational issues discovered.
-- **detailed comprehensive report** in a portable document format (*.pdf) with complete details of the scans and tools used. (_**under development**_)
-- **on the run metasploit auxilliary modules** to discover more vulnerabilities. (_**under development**_)
-
+- 
 ---
 
 ## Vulnerability Checks
