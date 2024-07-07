@@ -23,9 +23,6 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 - **on the run metasploit auxilliary modules** to discover more vulnerabilities. (_**under development**_)
 
 ---
-### FYI:
-- _program is still under development, **works** and currently supports **80** vulnerability tests._
-- _parallel processing is not yet implemented, may be coded as more tests gets introduced._
 
 ## Vulnerability Checks
 - :heavy_check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
