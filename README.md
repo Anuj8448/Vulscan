@@ -21,7 +21,7 @@
 ---
 
 ## Vulnerability Checks
-- :check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
+- :heavy_check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
 - :heavy_check_mark: Checks for Joomla, WordPress and Drupal
 - :heavy_check_mark: SSL related Vulnerabilities (_HEARTBLEED, FREAK, POODLE, CCS Injection, LOGJAM, OCSP Stapling_).
 - :heavy_check_mark: Commonly Opened Ports.
@@ -30,7 +30,7 @@
 - :heavy_check_mark: Open Directory/File Brute Forcing.
 - :heavy_check_mark: Shallow XSS, SQLi and BSQLi Banners.
 - :heavy_check_mark: Slow-Loris DoS Attack, LFI (_Local File Inclusion_), RFI (_Remote File Inclusion_) & RCE (_Remote Code Execution_)
-
+💠:
 ## Requirements
 - **Python 3**
 - Kali OS (_**Preferred**, as it is shipped with almost all the tools_)
