@@ -7,7 +7,6 @@ _**Vulscan has been ported to Python3 i.e. v1.2**. The Python2.7 codebase is ava
 > It is quite a fuss for a pentester to perform _**binge-tool-scanning**_ (_running security scanning tools one after the other_) sans automation. Unless you are a pro at automating stuff, it is a herculean task to perform binge-scan for each and every engagement. The ultimate goal of this program is to solve this problem through automation; viz. **running multiple scanning tools to discover vulnerabilities, effectively judge false-positives, collectively correlate results** and **saves precious time**; all these under one roof.<p>Enter **vulscan**.
 
 ## Features
-- **one-step installation**.
 - **executes a multitude of security scanning tools**, does other **custom coded checks** and **prints the results spontaneously**.
 - some of the tools include `nmap, dnsrecon, wafw00f, uniscan, sslyze, fierce, lbd, theharvester, amass, nikto` etc executes under one entity.
 - saves a lot of time, **indeed a lot time!**.
