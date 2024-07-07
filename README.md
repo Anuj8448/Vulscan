@@ -21,7 +21,7 @@
 ---
 
 ## Vulnerability Checks
-- :heavy_check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
+- :light_check_mark: DNS/HTTP Load Balancers & Web Application Firewalls.
 - :heavy_check_mark: Checks for Joomla, WordPress and Drupal
 - :heavy_check_mark: SSL related Vulnerabilities (_HEARTBLEED, FREAK, POODLE, CCS Injection, LOGJAM, OCSP Stapling_).
 - :heavy_check_mark: Commonly Opened Ports.
