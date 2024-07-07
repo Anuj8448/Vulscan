@@ -38,7 +38,6 @@
 
 
 ## Installation
-
 ```
 git clone https://github.com/Anuj8448/Vulscan.git /opt/ && cd /opt/vulscan
 chmod +x /opt/vulscan/setup.sh vulscan.py && ./setup.sh
