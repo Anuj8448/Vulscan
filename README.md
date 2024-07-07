@@ -30,7 +30,6 @@
 - :heavy_check_mark: Open Directory/File Brute Forcing.
 - :heavy_check_mark: Shallow XSS, SQLi and BSQLi Banners.
 - :heavy_check_mark: Slow-Loris DoS Attack, LFI (_Local File Inclusion_), RFI (_Remote File Inclusion_) & RCE (_Remote Code Execution_).
-- & more coming up...
 
 ## Requirements
 - **Python 3**
@@ -39,8 +38,6 @@
 
 
 ## Installation
-
-Alternatively, your can install the `vulscan` python module with `pip`. This will create a link for `vulscan` in your PATH. 
 
 ```
 git clone https://github.com/Anuj8448/Vulscan.git /opt/ && cd /opt/vulscan
