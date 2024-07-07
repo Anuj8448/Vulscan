@@ -17,7 +17,6 @@
 - **vulnerability definitions** guides you what the vulnerability actually is and the threat it can pose.
 - **remediation** tells you how to plug/fix the found vulnerability.
 - **executive summary** gives you an overall context of the scan performed with critical, high, low and informational issues discovered.
-- **artificial intelligence** to deploy tools automatically depending upon the issues found. for eg; automates the launch of `wpscan` and `plecost` tools when a wordpress installation is found. (_**under development**_)
 - **detailed comprehensive report** in a portable document format (*.pdf) with complete details of the scans and tools used. (_**under development**_)
 - **on the run metasploit auxilliary modules** to discover more vulnerabilities. (_**under development**_)
 
