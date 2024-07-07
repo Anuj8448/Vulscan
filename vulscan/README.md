@@ -46,3 +46,5 @@ python3 -m pip install . && sudo ln -s /opt/vulscan/vulscan.py /usr/local/bin/vu
 
 ```
 
+## Usage 
+ `vulscan.py example.com`
