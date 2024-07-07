@@ -30,7 +30,7 @@
 - :heavy_check_mark: Open Directory/File Brute Forcing.
 - :heavy_check_mark: Shallow XSS, SQLi and BSQLi Banners.
 - :heavy_check_mark: Slow-Loris DoS Attack, LFI (_Local File Inclusion_), RFI (_Remote File Inclusion_) & RCE (_Remote Code Execution_)
-💠:
+
 ## Requirements
 - **Python 3**
 - Kali OS (_**Preferred**, as it is shipped with almost all the tools_)
